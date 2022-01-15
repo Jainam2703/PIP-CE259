@@ -1,0 +1,31 @@
+print(sum(StudentMarks.values()))
+
+# d. Write a Python script to add a key to a dictionary.
+Sample_dictionary = {0: 10, 1: 20}
+Sample_dictionary[2] = 30
+print(Sample_dictionary)
+
+# e. Write a Python script to concatenate following dictionaries to create a new one.
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}def Merge(Student, Subject): return (Subject.update(Student))
+
+
+Student = {'S_name': 'Jainam Mehta', 'S_id': '20CS035', 'Department': 'CSE'}
+print(Student)
+
+# a. Write a Python script to check whether a given key already exists in a dictionary.
+print('S_name' in Student)
+print('S_id' in Student)
+print('Department' in Student)
+
+# b. Write a Python script to merge two Python dictionaries.
+Subject = {'Sub_name': 'Python Programming', 'Sub_code': 'PIP'}
+Merge(Student, Subject)
+print(Subject)
+
+# c. Write a Python program to sum all the items in a dictionary.
+StudentMarks = {'DSA': 95, 'PIP': 90, 'DBMS': 85}
+dic3 = {5: 50, 6: 60}
+All_Dic = {}
+for c in (dic1, dic2, dic3): All_Dic.update(c)
+print(All_Dic)
